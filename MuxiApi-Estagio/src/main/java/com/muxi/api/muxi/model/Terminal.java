@@ -1,6 +1,5 @@
 package com.muxi.api.muxi.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Terminal {
 
@@ -14,7 +13,6 @@ public class Terminal {
 	    private String version;
 	    private int mxr;
 	    private int mfx;
-	    @JsonProperty("VERFM")
 	    private String verfm;
 	
 
@@ -97,6 +95,6 @@ public class Terminal {
 	    public void setVerfm(String verfm) {
 	        this.verfm = verfm;
 	    }
-	     
-	  
+
+
 }

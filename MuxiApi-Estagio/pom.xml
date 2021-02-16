@@ -12,7 +12,7 @@
 	<groupId>com.muxi</groupId>
 	<artifactId>ApiRestMuxi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ApiRestMuxi</name>
+	<name>MuxiApi-Estagio</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -45,7 +45,11 @@
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
-			
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20201115</version>
 		</dependency>
 	</dependencies>
 
